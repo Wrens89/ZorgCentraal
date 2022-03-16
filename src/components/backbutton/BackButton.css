@@ -1,0 +1,17 @@
+.back-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 25px;
+    background-color: #5EB1BF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover.back-button {
+    fill:#D84728;
+    stroke: #D84728;
+    color: #D84728;
+}
