@@ -34,14 +34,13 @@ function Profile() {
         <>
             <div className="patient_container">
                 <div className="dropdown">
-                    <button className="dropbtn">Patiënt</button>
+                    <button className="dropbtn">Patiënt{user}</button>
                     <div className="dropdown-content">
-                        <a href="#">Herhaalrecept aanvragen</a>
-                        <a href="#">Dossier bekijken</a>
-                        <a href="#">Zorgverlener toevoegen</a>
-                        <a href="#">Vitale functies</a>
-                        <a href="#">Familie beheren</a>
-                        <a href="#">Persoonsgegevens aanpassen</a>
+                        <a href="http://localhost:3000/prescription">Herhaalrecept aanvragen</a>
+                        <a href="http://localhost:3000/file">Dossier bekijken</a>
+                        <a href="http://localhost:3000/careprovider">Zorgverlener toevoegen</a>
+                        <a href="http://localhost:3000/vitalfunctions">Vitale functies</a>
+                        <a href="http://localhost:3000/family">Familie beheren</a>
                         <a href="#">Uitloggen</a>
                     </div>
                 </div>
@@ -51,7 +50,7 @@ function Profile() {
                     <button className="dropbtn">Huisarts</button>
                     <div className="dropdown-content">
                         <a href="#">Afspraak maken</a>
-                        <a href="#">Herhaalrecept aanvragen</a>
+                        <a href="http://localhost:3000/prescription">Herhaalrecept aanvragen</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +58,7 @@ function Profile() {
                 <div className="dropdown">
                     <button className="dropbtn">Familie</button>
                     <div className="dropdown-content">
-                        <a href="#">Familie toevoegen</a>
+                        <a href="http://localhost:3000/family">Familie toevoegen</a>
                     </div>
                 </div>
             </div>
@@ -69,3 +68,5 @@ function Profile() {
 }
 
 export default Profile;
+
+// tralala
