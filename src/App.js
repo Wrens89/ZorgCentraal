@@ -8,7 +8,11 @@ import SignIn from "./pages/signIn/SignIn";
 import SignUp from "./pages/singUp/SignUp";
 import Profile from "./pages/profile/Profile";
 import Footer from "./components/footer/Footer";
-import ProfileCareTaker from "./pages/profileCaretaker/ProfileCareTaker";
+import Prescription from "./pages/prescription/Prescription";
+import File from "./pages/file/File";
+import MedicalCareProvider from "./pages/medicalCareProvider/MedicalCareProvider";
+import VitalFunctions from "./pages/vitalFunctions/VitalFunctions";
+import Family from "./pages/family/Family";
 
 function App() {
     const {isAuth} = useContext(AuthContext);
@@ -30,8 +34,20 @@ function App() {
         <Route exact path="/profile">
           <Profile/>
         </Route>
-        <Route exact path="/profile-caretaker">
-          <ProfileCareTaker/>
+        <Route exact path="/prescription">
+          <Prescription/>
+        </Route>
+        <Route exact path="/file">
+          <File/>
+        </Route>
+        <Route exact path="/careprovider">
+          <MedicalCareProvider/>
+        </Route>
+        <Route exact path="/vitalfunctions">
+          <VitalFunctions/>
+        </Route>
+        <Route exact path="/family">
+          <Family/>
         </Route>
       </Switch>
     </div>
@@ -41,3 +57,5 @@ function App() {
 }
 
 export default App;
+
+/* probeersel */

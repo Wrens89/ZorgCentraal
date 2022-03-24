@@ -22,7 +22,7 @@ function Homepage() {
                     gezondheidszaken kunt regelen.</p>
                     <div className="key-points">
                         <div className="keypoint_image">
-                            <img src={agenda} alt="agenda" className="image"/>
+                            <img src={agenda} alt="agenda" className="image" />
                             <h6>Afspraak maken</h6>
                         </div>
                         <div className="keypoint_image">

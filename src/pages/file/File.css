@@ -1,0 +1,14 @@
+.click-file {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
+    background-color: #EE7B45;
+    color: white;
+    padding: 32px;
+    margin-top: 50px;
+    border-radius: 100%;
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+}
